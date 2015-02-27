@@ -1,0 +1,134 @@
+body {
+  background: #f0f0f0;
+}
+
+a {
+  color: #69ceec;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.drop-shadow {
+  background: white;
+  -webkit-box-shadow: 0px 3px 5px 0px #aaa;
+  -moz-box-shadow: 0px 3px 5px 0px #aaa;
+  box-shadow: 0px 3px 5px 0px #aaa;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+  background: #69CEEC;
+  color: #fff;
+}
+
+.navbar {
+  background: #69ceec;
+  padding: 1em;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.navbar h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.post-container {
+  padding: 2em;
+  padding-bottom: 0;
+  margin-bottom: 3em;
+  box-shadow: 0px 3px 5px 0px #aaa;
+  background: white;
+}
+
+.post-container h1 {
+  font-size: 2em;
+  margin-top: 0em;
+}
+
+.post-container hr {
+  margin-top: 6px;
+}
+
+.post-like-dislike span:first-of-type {
+  margin-right: 0.6em;
+}
+
+.post-content {
+  margin: 2em 0;
+  font-size: 16px;
+}
+
+.post-like-dislike {
+  float: right; 
+  width: 240px; 
+  text-align: right; 
+  font-size: 24px; 
+  color: #555
+}
+
+.post-like-dislike a {
+  cursor: pointer;
+}
+
+.post-like-dislike i {
+  font-size: 34px;
+}
+
+.new-post {
+  padding-bottom: 2em;
+}
+
+.comments-container {
+  background: #eaeaea; 
+  padding: 1.5em 2em; 
+  margin: 0 -28px;
+}
+
+.comment-container {
+  float: left; 
+  padding: 1em 0; 
+  border-bottom: 1px solid #ccc; 
+  width: 100%;
+}
+
+.comment-like-dislike {
+  float: right; 
+  width: 140px; 
+  text-align: right;
+}
+
+.comment-like-dislike a {
+  cursor: pointer;
+}
+
+.comment-like-dislike i {
+  font-size: 20px;
+}
+
+.comment-like-dislike span:first-of-type {
+  margin-right: 0.6em;
+}
+
+.comment-content {
+  overflow: hidden;
+  line-height: 32px;
+}
+
+.form-new-comment {
+  position: relative;
+  height: 20px;
+}
+
+.form-new-comment input[type='text'] {
+  padding-right: 80px; 
+  position: absolute;
+}
+
+.form-new-comment input[type='submit'] {
+  right: 0; 
+  position: absolute; 
+  border-top-left-radius: 0; 
+  border-bottom-left-radius: 0;
+}
