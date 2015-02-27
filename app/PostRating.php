@@ -18,7 +18,7 @@ class PostRating extends Model {
 	protected $fillable = ['post_id', 'value'];
 
 	/**
-	 * Calculate the number of 'likes' for this post
+	 * Post to which post rating belongs
 	 *
 	 * @return mixed
 	 */
